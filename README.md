@@ -196,6 +196,7 @@
 自助法的概述与使用
 三种方法的优缺点
 
+```python
 # 智能训练
 import pandas as pd
 import numpy as np
@@ -338,3 +339,5 @@ plt.xticks(range(10),size = 12)
 my_plot = plt.bar(range(10), predictions[i],color='blue')
 plt.ylim([0, 1])
 plt.show()
+
+```
